@@ -1,0 +1,208 @@
+.container
+	max-width: 63.2%
+	margin: 0 auto
+	&--max
+		width: 73.7%
+		margin-left: 145px
+
+.header
+	margin-top: 22px
+	font-family: $Bebas
+	+clr
+	&__logo
+		float: left
+		color: $orange
+		font-size: 36px
+		span
+			color: $nude
+	&__nav
+		float: right
+
+.nav
+	white-space: nowrap
+	text-align: right
+	&__item
+		display: inline-block
+		margin: 14px 0 27px 27px
+	&__link
+		color: $gray
+		&:hover
+			color: $orange
+			font-size: 16px
+
+.deco
+	display: flex
+	justify-content: space-between
+	+clr
+	margin-bottom: 25px
+	&--center
+		width: 63.4%
+		background: $orange
+		font-family: $Bebas
+		font-size: 24px
+		color: #fff
+		padding: 17px
+	&--left
+		margin-right: 10px
+		height: 60px
+		background: $nude
+		float: left
+		width: 17.4%
+	&--right
+		margin-left: 10px
+		height: 60px
+		background: $nude
+		float: right
+		width: 17.4%
+
+.h2
+	font-family: $Bebas
+	font-size: 18px
+	text-transform: uppercase
+	color: $orange
+	margin-bottom: 21px
+	&--small
+		font-size: 14px
+		margin-bottom: 10px
+	&--minmarg
+		margin-bottom: 3px
+
+.small-txt
+	color: $gray
+	font-size: 12px
+	font-family: $Helvetica
+
+.p
+	font-size: 12px
+	font-family: $Helvetica
+	color: $black
+	line-height: 1.6
+	&--two
+		margin-top: 25px
+
+.section
+	padding-bottom: 100px
+
+.icon
+	position: absolute
+	width: 75px
+	height: 75px
+	background: $orange
+	padding: 23px
+	left: 191px
+
+.article 
+	max-width: 670px
+	&__img
+		img
+			width: 670px
+
+.post
+	margin-top: 25px
+	+clr
+	&__info
+		width: 25.4%
+		float: left
+		text-align: left
+		p
+			padding-bottom: 18px
+	&__title
+		text-align: left
+		float: right
+		max-width: 74.6%
+
+.line
+	background: url(../img/dots.svg)
+	height: 13px
+	width: 100%
+	margin-top: 50px
+	margin-bottom: 50px
+
+.citation
+	background: #f5f5f5
+	width: 100%
+	padding: 25px 70px
+	&__img
+		position: absolute
+		left: 20%
+	&__txt
+
+.index
+	font-family: $Bebas
+	font-size: 14px
+	color: #fff
+	&__num
+		display: inline-block
+		background: $nude
+		width: 25px
+		height: 25px
+		margin-left: 2px
+		padding: 7px
+		&-is-active
+			background: $orange
+
+.navigation
+	width: 220px
+	position: absolute
+	left: 1020px
+	top: 163px
+
+.egg
+	line-height: 1.2
+	padding-bottom: 40px
+	&__title
+		margin: 0
+		margin-bottom: 22px
+	&__txt
+		line-height: 1.2
+	&__list
+		font-size: 12px
+		font-family: $Helvetica
+	&__link
+		color: $black
+
+.grid
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-around
+	&__item
+		background: $nude
+		border: 1px solid $orange
+		width: 48px
+		height: 48px
+		margin-bottom: 6px
+
+.dynamic
+	display: flex
+	width: 220px
+	flex-wrap: nowrap
+	&__txt
+		width: auto
+	&__line
+		background: url(../img/dots.svg)
+		height: 13px
+		margin-left: 13px
+		margin-top: 1.5px
+		flex-grow: 1
+
+.gallery
+	.img
+		width: 670px
+		height: 300px
+		text-align: center
+		font-family: $Bebas
+	.slick-prev,.slick-next
+		background: url(../img/previous.svg)
+		font-size: 0px
+		position: absolute
+		left: 290px
+		top: 295px
+		width: 36px
+		height: 52px
+		z-index: 1005
+	.slick-next
+		left: 890px
+		background: url(../img/next.svg)
+	.slick-dots
+		li
+			display: none
